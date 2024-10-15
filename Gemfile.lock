@@ -14,6 +14,7 @@ PATH
   remote: .
   specs:
     way_of_working-changelog-keepachangelog (1.0.0)
+      way_of_working (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
