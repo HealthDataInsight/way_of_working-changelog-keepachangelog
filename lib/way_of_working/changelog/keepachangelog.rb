@@ -11,7 +11,6 @@ module WayOfWorking
   module Changelog
     module Keepachangelog
       class Error < StandardError; end
-      # Your code goes here...
     end
   end
 
