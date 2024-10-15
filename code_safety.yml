@@ -1,0 +1,102 @@
+---
+file safety:
+  ".github/linters/.markdown-link-check.json":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".github/linters/rubocop_defaults.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".github/workflows/main.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".github/workflows/mega-linter.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".gitignore":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".mega-linter.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  ".rubocop":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  CHANGELOG.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  Gemfile:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: f793e493d484674d2a6300f787557511dc77ecdf
+  Gemfile.lock:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 7f5443ae7e4b6ce026d1f3df4dbbf018304e456f
+  LICENSE.txt:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  README.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 2f0d8687e27c69e676b789626da97e9d75f2b350
+  Rakefile:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  bin/console:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  bin/setup:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  lib/way_of_working/changelog/keepachangelog.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/changelog/keepachangelog/generators/init.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/changelog/keepachangelog/paths.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/changelog/keepachangelog/plugin.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 7f5443ae7e4b6ce026d1f3df4dbbf018304e456f
+  lib/way_of_working/changelog/keepachangelog/templates/docs/way_of_working/changelog.md:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/changelog/keepachangelog/version.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 1e8de9f26f7f6d9f9f7dc4c51bfdb25d262ad1cc
+  test/test_helper.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+  test/way_of_working/changelog/keepachangelog/generators/init_test.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 5e824870714625e175d3bc9bc1f5c537907229de
+  test/way_of_working/changelog/keepachangelog_test.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 4bcd8bad46c9ca738944419b8ec57544cda1de01
+  way_of_working-changelog-keepachangelog.gemspec:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: f793e493d484674d2a6300f787557511dc77ecdf
