@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'keepachangelog/paths'
 require_relative 'keepachangelog/version'
 
 module WayOfWorking
