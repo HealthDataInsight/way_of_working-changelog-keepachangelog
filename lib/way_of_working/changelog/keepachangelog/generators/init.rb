@@ -70,10 +70,10 @@ module WayOfWorking
             footer_text = ''
             summary_tags.each do |summary_tag|
               footer_text += if previous_tag
-                              release_link(summary_tag.name, previous_tag.name, previous_tag.version)
-                            else
-                              release_link(summary_tag.name, 'HEAD', 'Unreleased')
-                            end
+                               release_link(summary_tag.name, previous_tag.name, previous_tag.version)
+                             else
+                               release_link(summary_tag.name, 'HEAD', 'Unreleased')
+                             end
 
               previous_tag = summary_tag
             end

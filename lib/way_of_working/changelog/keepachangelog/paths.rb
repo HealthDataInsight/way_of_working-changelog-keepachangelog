@@ -2,9 +2,9 @@
 
 require 'pathname'
 
-# Mixin that provides a couple of pathname convenience methods
 module WayOfWorking
   module Changelog
+    # Mixin that provides a couple of pathname convenience methods
     module Keepachangelog
       class << self
         def root
