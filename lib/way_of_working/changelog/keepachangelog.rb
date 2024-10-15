@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
-require_relative 'keepachangelog/generators/init'
+require 'way_of_working/cli'
 require_relative 'keepachangelog/paths'
-require_relative 'keepachangelog/version'
+require 'zeitwerk'
+
+loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::Changelog)
+loader.setup
 
 module WayOfWorking
   module Changelog
@@ -12,18 +15,20 @@ module WayOfWorking
     end
   end
 
-  # This class defines the "init" parent command
-  class Init < SubCommandBase
-    register(Changelog::Keepachangelog::Generators::Init, 'changelog', 'changelog',
-             <<~LONGDESC)
-               Description:
-                   This adds the Keep a Changelog v1.1 changelog to the project
+  module SubCommands
+    # This reopens the "way_of_working init" sub command
+    class Init
+      register(Changelog::Keepachangelog::Generators::Init, 'changelog', 'changelog',
+               <<~LONGDESC)
+                 Description:
+                     This adds the Keep a Changelog v1.1 changelog to the project
 
-               Example:
-                   way_of_working init changelog
+                 Example:
+                     way_of_working init changelog
 
-                   This will create:
-                   CHANGELOG.md
-             LONGDESC
+                     This will create:
+                     CHANGELOG.md
+               LONGDESC
+    end
   end
 end
