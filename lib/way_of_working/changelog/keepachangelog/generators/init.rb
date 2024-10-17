@@ -29,6 +29,10 @@ module WayOfWorking
             end
           end
 
+          def copy_way_of_working_documentation
+            copy_file 'docs/way_of_working/changelog.md'
+          end
+
           private
 
           def releases

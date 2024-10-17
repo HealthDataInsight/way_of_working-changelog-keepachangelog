@@ -59,10 +59,12 @@ module WayOfWorking
               assert_match('# Changelog', content)
               assert_match('## [Unreleased]', content)
             end
+            assert_file 'docs/way_of_working/changelog.md'
 
             run_generator [], behavior: :revoke
 
             assert_no_file CHANGELOG_FILENAME
+            assert_no_file 'docs/way_of_working/changelog.md'
           end
         end
       end
