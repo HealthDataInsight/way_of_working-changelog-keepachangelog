@@ -5,6 +5,7 @@ require_relative 'keepachangelog/paths'
 require 'zeitwerk'
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::Changelog)
+loader.ignore("#{__dir__}/keepachangelog/plugin.rb")
 loader.setup
 
 module WayOfWorking
