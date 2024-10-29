@@ -11,9 +11,9 @@ Gem::Specification.new do |spec|
   spec.summary = 'Way of Working plugin for a Changelog using Keep a Changelog'
   spec.homepage = 'https://github.com/HealthDataInsight/way_of_working-changelog-keepachangelog'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 3.1.0'
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
   spec.metadata['homepage_uri'] = spec.homepage
