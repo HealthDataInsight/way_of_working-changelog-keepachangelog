@@ -8,10 +8,8 @@ module WayOfWorking
     module Keepachangelog
       # This rule checks for the Pull Request template.
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
-        def valid?
+        def validate
           @errors << 'No Keep a Changelog CHANGELOG.md found' unless keep_a_changelog_found?
-
-          @errors.empty? ? :passed : :failed
         end
 
         private
