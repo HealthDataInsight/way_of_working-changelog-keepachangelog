@@ -13,7 +13,7 @@ module WayOfWorking
         # This class tests the Changelog::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
           tests WayOfWorking::Changelog::Keepachangelog::Generators::Init
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::Changelog::Keepachangelog.root.join('tmp/generators')
 
           CHANGELOG_FILENAME = 'CHANGELOG.md'
 
