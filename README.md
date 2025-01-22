@@ -1,5 +1,10 @@
 # WayOfWorking::Changelog::Keepachangelog
 
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [keep a changelog](https://keepachangelog.com/en/1.1.0/) version 1.1.0. It has a well-defined structure that makes it an accessible format for people and tooling.
 
 To quote from their website:
