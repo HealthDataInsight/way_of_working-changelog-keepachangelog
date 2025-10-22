@@ -12,7 +12,6 @@ rescue LoadError # rubocop:disable Lint/SuppressedException
 end
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::Changelog)
-loader.ignore("#{__dir__}/keepachangelog/plugin.rb")
 loader.setup
 
 module WayOfWorking
