@@ -7,7 +7,8 @@ module WayOfWorking
   module Changelog
     module Keepachangelog
       module Generators
-        # This class fetches the CODE_OF_CONDUCT.md and inserts the contact method
+        # This class generates the CHANGELOG.md file, generating sections based on
+        # git tags and commit messages (where possible).
         class Init < Thor::Group
           include Thor::Actions
 
