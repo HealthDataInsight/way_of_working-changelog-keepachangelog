@@ -1,58 +1,73 @@
 ---
 layout: page
+status: REQUIRED
+enforcement: manual
 ---
 
 # Changelog
 
 ![Keep a Changelog v1.1.0 badge][changelog-badge]
 
-We use [keep a changelog](https://keepachangelog.com/en/1.1.0/) version 1.1.0. It has a well-defined structure that makes it an accessible format for people and tooling.
+## Purpose
 
-To quote from their website:
+Maintain a human-readable project history that documents all notable changes between versions in plain English.
 
-> Guiding Principles:
-> * Changelogs are for humans, not machines.
-> * There should be an entry for every single version.
-> * The same types of changes should be grouped.
-> * Versions and sections should be linkable.
-> * The latest version comes first.
-> * The release date of each version is displayed.
-> * Mention whether you follow Semantic Versioning.
+## Scope
 
-Grouping changes into a clear set of change types:
+All projects must maintain a changelog using [Keep a Changelog v1.1.0][keep-a-changelog] format.
 
-> * `Added` for new features.
-> * `Changed` for changes in existing functionality.
-> * `Deprecated` for soon-to-be removed features.
-> * `Removed` for now removed features.
-> * `Fixed` for any bug fixes.
-> * `Security` in case of vulnerabilities.
+## Requirements
 
-{: .important }
-Unlike automatic tools like github-changelog-generator, keep a changelog is a human-written, plain English summary of changes. It is **not** a commit log dump; please do not use it as such.
+- Human-written plain English summaries (not commit log dumps)
+- Entry for every version
+- Latest version listed first
+- Release date displayed for each version
+- Changes grouped by type: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`
+- Versions and sections must be linkable
+- Follow [Semantic Versioning][semver]
+- Update changelog within Pull Requests, not at release time
 
-We recommend that you and your team update the changelog within your Pull Requests, which avoids the need to add to the changelog much later, at release. Please read the [keep a changelog](https://keepachangelog.com/en/1.1.0/) website. It's a single page with lots of important advice about the benefits and dangers of an incomplete changelog, but as it says in the FAQs, you can always revisit and improve a changelog over time.
+## Setup
 
-The Way of Working command line tool scaffolds a new changelog on new and longstanding projects.
-
-On longstanding git-based projects, it reads the release tags and scaffolds a changelog with the expected changes of a [semantically versioned](https://semver.org) project. So, for example, a patch or minor version change won't contain a scaffolded `Removed` section.
-
-Please use the links within the scaffolded changelog to view all the commits between releases to document historical changes.
-
-{: .note }
-There is no tooling to support the continued scaffolding of new releases to an existing changelog because the expectation is that you are updating it day-to-day.
-
-{: .highlight }
-We want to provide tooling (including a Rails helper method) that reads the changelog and converts it to HTML for inclusion within the project website. Developers could also give it a last-logged-in date to highlight all the changes since a user last logged in. If you would like to contribute to this functionality, let us know.
-
-## Usage
-
-### Adding a changelog to your project
-
-To add a [keep a changelog v1.1.0](https://keepachangelog.com/en/1.1.0/) changelog to your project, use the following at the command line:
+Initialise a changelog for your project:
 
 ```bash
 way_of_working init changelog
 ```
 
+For git-based projects with existing releases, this scaffolds sections based on semantic version tags.
+
+## Usage
+
+1. Update the `Unreleased` section in each Pull Request
+2. Group changes under appropriate headings
+3. Write clear, user-focused descriptions
+4. Move `Unreleased` changes to a version section at release
+5. Use scaffolded commit links to document historical changes
+
+## Enforcement
+
+- Changelog updates required in Pull Request reviews
+- No automatic commit log dumps permitted
+
+## Examples
+
+```markdown
+## [1.2.0] - 2025-10-22
+
+### Added
+- User authentication via OAuth2
+- Export data to CSV functionality
+
+### Fixed
+- Memory leak in background job processor
+```
+
+## Resources
+
+- [Keep a Changelog][keep-a-changelog]
+- [Semantic Versioning][semver]
+
 [changelog-badge]: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735
+[keep-a-changelog]: https://keepachangelog.com/en/1.1.0/
+[semver]: https://semver.org
