@@ -4,7 +4,7 @@ require 'way_of_working/audit/github/rules/base'
 
 module WayOfWorking
   module Changelog
-    # The namespace for plugin
+    # The namespace for this plugin
     module Keepachangelog
       # This rule checks for the Pull Request template.
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base

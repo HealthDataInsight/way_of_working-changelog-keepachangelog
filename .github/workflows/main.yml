@@ -1,4 +1,5 @@
-name: Rake Test
+---
+name: Ruby Tests
 
 on: push
 
