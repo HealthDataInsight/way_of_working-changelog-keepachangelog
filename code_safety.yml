@@ -3,7 +3,7 @@ file safety:
   ".alexrc":
     comments:
     reviewed_by: timgentry
-    safe_revision: '08a5bd02a1150654e5b17ab55dc49ad23da16102'
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   ".github/linters/.markdown-link-check.json":
     comments:
     reviewed_by: timgentry
@@ -15,19 +15,19 @@ file safety:
   ".github/workflows/inclusive-language.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: '08a5bd02a1150654e5b17ab55dc49ad23da16102'
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   ".github/workflows/main.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   ".github/workflows/mega-linter.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: d749c19d08b993ecb23937cb8ef9a12c8e7179d7
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   ".gitignore":
     comments:
     reviewed_by: timgentry
-    safe_revision: 5be98ae45eed7dc9563222bdd800f998b6208a34
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   ".mega-linter.yml":
     comments:
     reviewed_by: timgentry
@@ -43,11 +43,11 @@ file safety:
   Gemfile:
     comments:
     reviewed_by: timgentry
-    safe_revision: 0ca48189945c061118d3f8203970bc140efa9fdf
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   Gemfile.lock:
     comments:
     reviewed_by: timgentry
-    safe_revision: 257665e886ae5279fded788009891f9dace938bd
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   LICENSE.txt:
     comments:
     reviewed_by: timgentry
@@ -55,7 +55,7 @@ file safety:
   README.md:
     comments:
     reviewed_by: timgentry
-    safe_revision: 225f11fa1198e0d32ec0061d76d8599afd4b594f
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   Rakefile:
     comments:
     reviewed_by: timgentry
@@ -63,15 +63,15 @@ file safety:
   bin/console:
     comments:
     reviewed_by: timgentry
-    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   bin/setup:
     comments:
     reviewed_by: timgentry
     safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
   docs/way_of_working/changelog.md:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog.rb:
     comments:
     reviewed_by:
@@ -91,15 +91,15 @@ file safety:
   lib/way_of_working/changelog/keepachangelog/plugin.rb:
     comments:
     reviewed_by: timgentry
-    safe_revision: 9c2312705778e1ac3498ad5a20a26c41f420a818
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/templates/docs/way_of_working/changelog.md:
     comments:
     reviewed_by: timgentry
-    safe_revision: c4dff8c0928733de8214e78ebf370e21c95a1e5a
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/version.rb:
     comments:
     reviewed_by: timgentry
-    safe_revision: 1e8de9f26f7f6d9f9f7dc4c51bfdb25d262ad1cc
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   test/test_helper.rb:
     comments:
     reviewed_by: timgentry
@@ -111,20 +111,20 @@ file safety:
   test/way_of_working/changelog/keepachangelog/generators/init_test.rb:
     comments:
     reviewed_by: timgentry
-    safe_revision: 2863f9a161c4d03328942c361eee0d816fe3a21a
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   test/way_of_working/changelog/keepachangelog/github_audit_rule_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   test/way_of_working/changelog/keepachangelog/zeitwerk_loader_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   test/way_of_working/changelog/keepachangelog_test.rb:
     comments:
     reviewed_by: timgentry
-    safe_revision: 2863f9a161c4d03328942c361eee0d816fe3a21a
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   way_of_working-changelog-keepachangelog.gemspec:
     comments:
     reviewed_by: timgentry
-    safe_revision: 6224dfb53325543d93df7c4dde07bad0f60ddef7
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
