@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-01-24
+
 ### Added
 
-- Initial release
+- Initial release of init command and GitHub audit rule
+
+[unreleased]: https://github.com/HealthDataInsight/way_of_working-changelog-keepachangelog/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/HealthDataInsight/way_of_working-changelog-keepachangelog/releases/tag/v1.0.0
