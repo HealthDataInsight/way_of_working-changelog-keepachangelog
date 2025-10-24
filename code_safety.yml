@@ -38,8 +38,8 @@ file safety:
     safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
   CHANGELOG.md:
     comments:
-    reviewed_by: timgentry
-    safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
+    reviewed_by: shilpigoeldev
+    safe_revision: 2664c0424e3eb7d51f7b64062ad92f796cc315e1
   Gemfile:
     comments:
     reviewed_by: timgentry
@@ -74,20 +74,20 @@ file safety:
     safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/generators/init.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/github_audit_rule.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/paths.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   lib/way_of_working/changelog/keepachangelog/plugin.rb:
     comments:
     reviewed_by: timgentry
@@ -106,8 +106,8 @@ file safety:
     safe_revision: c6967c0cb2b341ab33d5d134af666c0a4e6ade7d
   test/way_of_working/audit_github_stub_classes.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 72abfd0a94b510b24530f7cd62b03d35062fbb1b
+    reviewed_by: shilpigoeldev
+    safe_revision: 8d28755cd6dce363b605f02a432539c7d6411c33
   test/way_of_working/changelog/keepachangelog/generators/init_test.rb:
     comments:
     reviewed_by: timgentry
